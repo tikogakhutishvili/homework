@@ -35,10 +35,10 @@ const car = {
     name: "Ford mustang shelby GT500",
     age: 2022
 }
-function mycar(){
-    console.log(car.age)
+function mycar(Carr){
+    console.log(Carr.age)
 }
-mycar()
+mycar(car)
 
 // 5. დაწერეთ ფუნქცია რომელსაც გადავცემთ ციფრების მასივს,
 // მაგალითად [1,4,88,99, 123]. ფუნქციამ უნდა იპოვოს და დააბრუნოს
