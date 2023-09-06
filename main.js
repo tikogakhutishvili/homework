@@ -35,8 +35,9 @@ const car = {
     name: "Ford mustang shelby GT500",
     age: 2022
 }
-function mycar(Carr){
-    console.log(Carr.age)
+let now= new Date().getFullYear()
+function mycar(carr){
+    console.log(now - carr.age)
 }
 mycar(car)
 
